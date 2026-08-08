@@ -1,6 +1,7 @@
 # Retail Sales Data Pipeline
 
-pipline_Archticture.png
+<img width="1707" height="752" alt="pipline_Archticture" src="https://github.com/user-attachments/assets/04c76761-3101-4342-a030-62186c1a8b94" />
+
 
 ## Overview
 This project is an end-to-end Automated ETL (Extract, Transform, Load) Pipeline built with Python. It processes real-world retail company data, extracting it from raw CSV files, applying complex business transformations, and loading it into a structured SQL Server Datawarehouse. The primary objective of this pipeline is to prepare clean, analytical-ready datasets for future Business Intelligence (BI) and dashboarding purposes.
