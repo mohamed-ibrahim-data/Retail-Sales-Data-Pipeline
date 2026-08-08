@@ -1,6 +1,7 @@
 # Retail Sales Data Pipeline
 
-<img width="1707" height="752" alt="pipline_Archticture" src="[https://github.com/user-attachments/assets/04c76761-3101-4342-a030-62186c1a8b94](https://github.com/user-attachments/assets/04c76761-3101-4342-a030-62186c1a8b94)" />
+<img width="1707" height="752" alt="pipline_Archticture" src="https://github.com/user-attachments/assets/7cb60099-ac40-458a-926c-0b1426a0fe41" />
+
 
 ## Overview
 This project is an end-to-end Automated ETL (Extract, Transform, Load) Pipeline built with Python. It processes real-world retail company data, extracting it from raw CSV files, applying complex business transformations, and loading it into a structured SQL Server Datawarehouse. The primary objective of this pipeline is to prepare clean, analytical-ready datasets for future Business Intelligence (BI) and dashboarding purposes.
@@ -81,7 +82,7 @@ Open the schema.sql file provided in this repository and click Execute. This wil
 Clone the repository and install the required dependencies:
 
 Bash
-git clone <your_repository_link_here>
+git clone <[your_repository_link_here](https://github.com/mohamed-ibrahim-data/Retail-Sales-Data-Pipeline.git)>
 cd etl-sales-pipeline
 pip install -r requirements.txt
 5. Running the Pipeline
