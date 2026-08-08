@@ -56,7 +56,7 @@ etl-sales-pipeline/
 ├── schema.sql            # SQL script to create the Star Schema (DDL)
 ├── requirements.txt      # Project dependencies
 └── README.md
-
+```
 
 ## How to Run the Project
 1. Prerequisites
