@@ -34,7 +34,7 @@ The transformation phase (`transform.py`) applies several critical business rule
 * Standardized the `store_phone` format by stripping out dashes (`-`) to ensure clean and consistent numerical records.
 
 ### Sales Data (Fact Table)
-* Calculated `time_to_sell(days)` by finding the date difference between `transaction_date` and `stock_date`.
+* Calculated `time_to_sell_by_days` by finding the date difference between `transaction_date` and `stock_date`.
 * Merged the `Products` dataset with the `Sales` dataset to inherit the `profit_margin` feature.
 * Calculated `total_profit` for each transaction by multiplying `profit_margin` by the sold `quantity`.
 
