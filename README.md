@@ -57,8 +57,8 @@ etl-sales-pipeline/
 ├── requirements.txt      # Project dependencies
 └── README.md
 
-### <img width="1422" height="782" alt="data_model" src="https://github.com/user-attachments/assets/6cbbb287-d5af-460e-9f82-d0eb0bbaa688" />
-How to Run the Project
+
+## How to Run the Project
 1. Prerequisites
 Python 3.x installed.
 
