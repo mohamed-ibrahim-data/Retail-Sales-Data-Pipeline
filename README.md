@@ -59,34 +59,28 @@ etl-sales-pipeline/
 ```
 
 ## How to Run the Project
-1. Prerequisites
-Python 3.x installed.
+### 1. Prerequisites
+* Python 3.x installed.
+* SQL Server installed and running locally or remotely.
+* ODBC Driver for SQL Server installed (e.g., ODBC Driver 17).
 
-SQL Server installed and running locally or remotely.
+### 2. Database Preparation
+* Before running the script, create an empty target database in your SQL Server environment named SalesDW.
 
-ODBC Driver for SQL Server installed (e.g., ODBC Driver 17).
+### 3. Database Schema Setup (Important)
+* Before executing the Python pipeline, you must build the Star Schema (Tables, Primary Keys, and Foreign Keys):
+* Open SQL Server Management Studio (SSMS).
+* Connect to your SQL Server and select the SalesDW database.
+* Open the schema.sql file provided in this repository and click Execute. This will drop any existing tables and create the correct dimensional model.
 
-2. Database Preparation
-Before running the script, create an empty target database in your SQL Server environment named SalesDW.
-
-3. Database Schema Setup (Important)
-Before executing the Python pipeline, you must build the Star Schema (Tables, Primary Keys, and Foreign Keys):
-
-Open SQL Server Management Studio (SSMS).
-
-Connect to your SQL Server and select the SalesDW database.
-
-Open the schema.sql file provided in this repository and click Execute. This will drop any existing tables and create the correct dimensional model.
-
-4. Installation
-Clone the repository and install the required dependencies:
-
+### 4. Installation
+* Clone the repository and install the required dependencies:
 Bash
 git clone <[your_repository_link_here](https://github.com/mohamed-ibrahim-data/Retail-Sales-Data-Pipeline.git)>
 cd etl-sales-pipeline
 pip install -r requirements.txt
-5. Running the Pipeline
-Execute the main orchestrator script to trigger the full ETL workflow:
+### 5. Running the Pipeline
+* Execute the main orchestrator script to trigger the full ETL workflow:
 
 Bash
 python src/main.py
