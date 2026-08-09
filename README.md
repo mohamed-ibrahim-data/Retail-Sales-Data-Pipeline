@@ -76,7 +76,6 @@ etl-sales-pipeline/
 ### 4. Installation
 * Clone the repository and install the required dependencies:
 ```
-
 git clone <[your_repository_link_here](https://github.com/mohamed-ibrahim-data/Retail-Sales-Data-Pipeline.git)>
 cd etl-sales-pipeline
 pip install -r requirements.txt
@@ -84,6 +83,5 @@ pip install -r requirements.txt
 ### 5. Running the Pipeline
 * Execute the main orchestrator script to trigger the full ETL workflow:
 ```
-
 python src/main.py
 ```
